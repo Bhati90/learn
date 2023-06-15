@@ -8,10 +8,13 @@ import cart6 from '../assets/cart6.png';
 import headl from '../assets/headl.png';
 import jass from '../assets/jass.png';
 import foot1 from '../assets/foot1.png';
-
+import info1 from '../assets/info1.png';
+import info2 from '../assets/info2.png';
+import midtag from '../assets/midtag.png'
 
 export default {
     logo,
+    midtag,
     cart1,
     cart2,
     cart3,
@@ -20,7 +23,9 @@ export default {
     cart6,
     headl,
     jass,
-    foot1
+    foot1,
+    info1,
+    info2
 };
 
 // export default images
