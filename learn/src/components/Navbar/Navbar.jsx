@@ -55,24 +55,13 @@ const Navbar = () => {
 
              
             ))}
-               {/* <div className='m-menu'
-       {isAuthenticated && <p style={{color:'black'}}>Hello {User.name}</p>}
-       {isAuthenticated ? (<div ><button  onClick={() => logout({ logoutParams: { returnTo: window.location.origin }})}>logout</button></div>):
-       (  <button  onClick={() =>loginWithRedirect()}>Log In</button>
-       )} 
-       </div> */}
-       {/* <div></div> */}
+          
+              
        {isAuthenticated && <p style={{marginLeft:'12px',marginTop:'12px',color:'black'}}>Hello {User.name}</p>}
        {isAuthenticated ? (<></>):
        (  <button className='m-menu'  onClick={() =>loginWithRedirect()}>Log In</button>
        )} 
             </ul>
-            {/* <div className='m-menu'
-       {isAuthenticated && <p style={{color:'black'}}>Hello {User.name}</p>}
-       {isAuthenticated ? (<div ><button  onClick={() => logout({ logoutParams: { returnTo: window.location.origin }})}>logout</button></div>):
-       (  <button  onClick={() =>loginWithRedirect()}>Log In</button>
-       )} 
-       </div> */}
           
             </motion.div>
         )}
