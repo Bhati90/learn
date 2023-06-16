@@ -1,7 +1,7 @@
 import React from 'react'
 import LearnHeader from './LearnHeader/LearnHeader'
-import LearnMid from './LearnMid'
-import LearnSyllabus from './LearnSyllabus'
+import LearnMid from './LearnMid/LearnMid'
+import LearnSyllabus from './LearnSyllabus/LearnSyllabus'
 
 
 const Learn = () => {
@@ -9,8 +9,8 @@ const Learn = () => {
     <div>
 
       <LearnHeader/>
-      <LearnMid/>
-      <LearnSyllabus/>
+       <LearnMid/>
+      <LearnSyllabus/> 
     </div>
   )
 }

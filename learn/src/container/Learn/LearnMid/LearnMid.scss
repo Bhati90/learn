@@ -1,0 +1,99 @@
+.app__learnmid{
+    background: white;
+    width: 100%;
+    padding-left: 10%;
+    flex:1;
+    padding-top: 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 100%;
+
+    .app__learnmid1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 2rem;
+        flex-direction: column;
+
+        .app__learnmid2{
+            display: flex;
+            flex-direction: column;
+        
+
+            .midhead{
+                font-weight: bolder;
+                
+                margin-bottom: 1rem;
+            }
+
+            .app__learnmid22{
+                width: 100%;
+                line-height: normal;
+
+                .learnmid22p{
+                    width: 80%;
+
+                }
+                
+            }
+
+        }
+
+        .midspeaker{
+             display: flex;
+          
+             flex-direction: column;
+          
+            height: 141px;
+            width: 100%;
+
+            .midhead{
+                font-weight: bolder; 
+                margin-bottom: 1rem;
+                margin-left: 25px;
+            }
+
+
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+
+            .aboutspeaker{
+                display: flex;
+                flex-direction: row;
+            }
+
+            .speaker{
+                display: flex;
+                align-items: center;
+                margin-left: 23px;
+            }
+
+        }
+
+        .midinstitute{
+            margin-top: 33px;
+           height: 141px;
+           width: 100%;
+           
+           
+           .midi1{
+            display: flex;
+            flex-direction: row;
+
+            .speaker{
+                display: flex;
+                align-items: center;
+                margin-left: 23px;
+            }
+           }
+        }
+
+    }
+
+
+}

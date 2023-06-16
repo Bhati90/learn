@@ -4,32 +4,35 @@ import MotionWrap from '../../../wrapper/MotionWrap'
 import { images } from '../../../constants'
 import './LearnHeader.scss'
 
-const LearnHeader = () => {
+function LearnHeader ()  {
   return (
-    <div className='app__learnHeader app__flex'>
-      <div className='app__learnheader-info'>
+    <div className='app__learn app__flex'>
+      <div className='app__learnhead'>
+      <div className='app__learn-info'>
         <motion.div
         whileInView = {{opacity:[0,1]}}
         transition={{duration:0.5}}
-        className='app__learnheader-info1'>
+        className='app__learn-info1'>
             
-  <img src = {images.info1} alt ="learnheadlogo"/>
+  <img src = {images.learnhead} alt ="learnheadlogo"/>
         </motion.div>
 
         <motion.div
-       ><button className='app__learn'> Start Learning</button>
+       ><button className='app__learnb'> Start Learning</button>
         </motion.div>
 
         </div>
 
-        <div className='app__learnheader-main'>
+        <div className='app__learn-main'>
         <motion.div
         whileInView = {{opacity:[0,1]}}
         transition={{duration:0.5}}
-        className='app__learnheader-img'>
+        className='app__learn-img'>
             
-  <img src = {images.headl} alt ="headlogo"/>
+  <img src = {images.learnheadlogo} alt ="headlogo"/>
         </motion.div>
+
+        </div>
 
         </div>
     </div>

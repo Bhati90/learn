@@ -10,9 +10,18 @@ import jass from '../assets/jass.png';
 import foot1 from '../assets/foot1.png';
 import info1 from '../assets/info1.png';
 import info2 from '../assets/info2.png';
-import midtag from '../assets/midtag.png'
+import midtag from '../assets/midtag.png';
+import learnhead from '../assets/learnhead.png';
+import learnheadlogo from '../assets/learnheadlogo.png';
+import bill from '../assets/bill.png';
+import learnmidlogo from '../assets/learnmidlogo.png'
+
 
 export default {
+    learnmidlogo,
+    bill,
+    learnhead,
+    learnheadlogo,
     logo,
     midtag,
     cart1,
