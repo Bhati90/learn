@@ -15,7 +15,11 @@ import learnhead from '../assets/learnhead.png';
 import learnheadlogo from '../assets/learnheadlogo.png';
 import bill from '../assets/bill.png';
 import learnmidlogo from '../assets/learnmidlogo.png'
-
+import instagram from '../assets/icons/instagram.png';
+import linkedin from '../assets/icons/linkedin.png';
+import twitter from '../assets/icons/twitter.png';
+import youtube from '../assets/icons/youtube.png';
+import srijanlogo from '../assets/srijanlogo.png';
 
 export default {
     learnmidlogo,
@@ -34,7 +38,12 @@ export default {
     jass,
     foot1,
     info1,
-    info2
+    info2,
+    instagram,
+    linkedin,
+    twitter,
+    youtube,
+    srijanlogo
 };
 
 // export default images
