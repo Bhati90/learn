@@ -30,11 +30,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
 
     position: "relative",
-    // "&:hover": {
-    //   "& $controlsWrapper": {
-    //     visibility: "visible",
-    //   },
-    // },
+   
   },
 
   controlsWrapper: {
