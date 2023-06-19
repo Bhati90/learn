@@ -9,6 +9,7 @@ import ReactPlayer from "react-player";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import './VideoMain.scss'
 
+
 import { motion } from "framer-motion";
 import Slider from "@material-ui/core/Slider";
 import Tooltip from "@material-ui/core/Tooltip";
