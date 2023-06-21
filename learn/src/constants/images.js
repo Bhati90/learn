@@ -20,6 +20,7 @@ import linkedin from '../assets/icons/linkedin.png';
 import twitter from '../assets/icons/twitter.png';
 import youtube from '../assets/icons/youtube.png';
 import srijanlogo from '../assets/srijanlogo.png';
+import notification from '../assets/icons/notification.png';
 
 export default {
     learnmidlogo,
@@ -43,7 +44,8 @@ export default {
     linkedin,
     twitter,
     youtube,
-    srijanlogo
+    srijanlogo,
+    notification
 };
 
 // export default images
